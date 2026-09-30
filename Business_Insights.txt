@@ -1,0 +1,21 @@
+# VEDA Task 23 – SQL Window Functions: Business Insights
+
+1. **Product Ranking:** RANK() and DENSE_RANK() help compare product prices and identify high-priced products.
+
+2. **Order Sequence:** ROW_NUMBER() assigns a unique sequential number to orders or products, making records easier to organize.
+
+3. **Previous and Next Orders:** LAG() and LEAD() help compare order dates and understand the time between orders.
+
+4. **Running Sales Total:** SUM() OVER() calculates cumulative order values and helps track sales growth across orders.
+
+5. **Average Order Value:** AVG() OVER() helps compare individual order values with the overall average.
+
+6. **Customer Sales Analysis:** PARTITION BY customer_id calculates customer-wise sales totals and helps compare customer contributions.
+
+7. **Latest Orders:** Ranking orders within each customer group helps identify their most recent orders.
+
+8. **Customer Order Comparison:** Comparing an order's value with the customer's average order value helps identify relatively higher- and lower-value orders.
+
+## Conclusion
+
+SQL window functions make it possible to analyze rankings, sales totals, averages, and order sequences without losing individual row-level details.
